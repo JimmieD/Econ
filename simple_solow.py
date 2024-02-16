@@ -1,6 +1,7 @@
 #Written in Jupyter Notebook
-
+import matplotlib.pyplot as plt
 from itertools import product
+import numpy as np
 
 def plot_path(ax, alpha_s, s_vals, delta_s, series_length=50):
     """
