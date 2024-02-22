@@ -53,5 +53,5 @@ plt.plot(x_combined, intercept + slope * x_combined, 'k', linewidth=2, label='Co
 plt.xlabel('X')
 plt.ylabel('Y')
 plt.legend()
-plt.title('Demonstration of Simpsons Paradox for Combined Collective A-E')
+plt.title('Combined Collective A-E')
 plt.show()
