@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # Define assets
-assets = ['AAPL', 'MSFT', 'SCHD', 'DIVB', 'DOW', 'WLKP', 'XOM', 'BP', 'TTE', 'SHEL', 'PBR', 'ET', 'HESM', 'EPD', 'PSX', 'MPC', 'VLO', 'BSM', 'DMLP', 'KRP', 'DE', 'CMI', 'CAT', 'CARR', 'PG', 'PEP', 'CHD', 'JBBB', 'JAAA', 'CLOZ', 'JSI', 'VABS', 'YLD', 'MBB', 'LQD', 'QLTA', 'CMBS']  # Example assets
+assets = ['WDS']  # Example assets
 
 # Risk-free rate (annual), adjust as necessary
 R_f = 0.0553  # Example: 2% annual risk-free rate

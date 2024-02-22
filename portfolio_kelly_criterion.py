@@ -4,9 +4,9 @@ import yfinance as yf
 from scipy.optimize import minimize
 
 # Define the assets and the historical data period
-assets = ['SCHD', 'HYG']  # Example assets # Example assets
+assets = ['WDS', 'AGG']  # Example assets # Example assets
 start_date = '2004-01-01'
-end_date = '2024-01-01'
+end_date = '2024-02-16'
 
 # Download historical data from Yahoo Finance
 data = yf.download(assets, start=start_date, end=end_date)['Adj Close']
