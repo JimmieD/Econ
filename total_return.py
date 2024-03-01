@@ -9,10 +9,10 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # Define the tickers for the assets you're interested in
-tickers = ["VTI", "QQQ", "AGG"]
+tickers = ["VTI", "QQQ", "AGG", "MBB", "TIP", "TLT", "GLD", "SLV"]
 
 # Define the period for which you want to calculate returns
-start_date = "2017-01-01"
+start_date = "2020-01-01"
 end_date = "2024-02-26"
 
 # Initialize a DataFrame to store results
